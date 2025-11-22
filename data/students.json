@@ -1,28 +1,10 @@
 [
   {
-    "student_id": "STU001",
-    "name": "Alice Johnson",
-    "age": 16,
-    "grade": "10",
-    "email": "alice.johnson@email.com",
-    "phone": "+1234567890",
-    "performance": "Excellent"
-  },
-  {
-    "student_id": "STU002",
-    "name": "Bob Smith",
-    "age": 15,
-    "grade": "9",
-    "email": "bob.smith@email.com",
-    "phone": "+1234567891",
-    "performance": "Good"
-  },
-  {
     "student_id": "STU003",
-    "name": "Carol Williams",
+    "name": "Carol Williamsdsa",
     "age": 17,
     "grade": "11",
-    "email": "carol.williams@email.com",
+    "email": "carolwilliams@email.com",
     "phone": "+1234567892",
     "performance": "Excellent"
   },
@@ -46,10 +28,10 @@
   },
   {
     "student_id": "STU006",
-    "name": "Frank Miller",
+    "name": "Frank Millerj",
     "age": 15,
     "grade": "9",
-    "email": "frank.miller@email.com",
+    "email": "frankmiller@email.com",
     "phone": "+1234567895",
     "performance": "Below Average"
   },
@@ -58,18 +40,9 @@
     "name": "Grace Wilson",
     "age": 18,
     "grade": "12",
-    "email": "grace.wilson@email.com",
+    "email": "gracewilson@email.com",
     "phone": "+1234567896",
     "performance": "Excellent"
-  },
-  {
-    "student_id": "STU008",
-    "name": "Henry Moore",
-    "age": 13,
-    "grade": "7",
-    "email": "henry.moore@email.com",
-    "phone": "+1234567897",
-    "performance": "Good"
   },
   {
     "student_id": "STU009",
@@ -81,21 +54,39 @@
     "performance": "Average"
   },
   {
-    "student_id": "STU010",
-    "name": "Jack Anderson",
-    "age": 17,
-    "grade": "11",
-    "email": "jack.anderson@email.com",
-    "phone": "+1234567899",
-    "performance": "Good"
-  },
-  {
     "student_id": "1658148",
     "name": "Nizamuddin Solangi",
     "age": 16,
     "grade": "11",
     "email": "nizamuddinsolangi614@gmail.com",
     "phone": "03152373656",
+    "performance": "Excellent"
+  },
+  {
+    "student_id": "4545",
+    "name": "Nizamuddin Solangi",
+    "age": 16,
+    "grade": "5",
+    "email": "nizamuddinsolangi614@gmail.com",
+    "phone": "+923152373656",
+    "performance": "Excellent"
+  },
+  {
+    "student_id": "554",
+    "name": "Nizamuddin Solangi",
+    "age": 15,
+    "grade": "1",
+    "email": "nizamuddinsolangi614@gmail.com",
+    "phone": "+923152373656",
+    "performance": "Excellent"
+  },
+  {
+    "student_id": "3432",
+    "name": "Nizamuddin Solangi",
+    "age": 15,
+    "grade": "1",
+    "email": "nizamuddinsolangi614@gmail.com",
+    "phone": "+923152373656",
     "performance": "Excellent"
   }
 ]
