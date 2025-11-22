@@ -26,8 +26,8 @@ class Validator:
         if not name or not name.strip():
             return False, "Name cannot be empty"
         
-        if len(name.strip()) < 2:
-            return False, "Name must be at least 2 characters long"
+        if len(name.strip()) < 3:
+            return False, "Name must be at least 3 characters long"
         
         if len(name.strip()) > 100:
             return False, "Name must be less than 100 characters"
@@ -35,6 +35,9 @@ class Validator:
         if not re.match(r'^[a-zA-Z\s\'-]+$', name):
             return False, "Name can only contain letters, spaces, hyphens, and apostrophes"
         
+        if not re.match(r'^[a-zA-Z\s]+$', name):
+            return False, "Name can only contain letters and spaces"
+
         return True, ""
     
     @staticmethod
@@ -97,7 +100,7 @@ class Validator:
         if not email or not email.strip():
             return False, "Email cannot be empty"
         
-        email_pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+        email_pattern = r'^[A-Za-z][A-Za-z0-9]{3,}@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$'
         
         if not re.match(email_pattern, email):
             return False, "Invalid email format (example: user@example.com)"
