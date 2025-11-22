@@ -1,3 +1,8 @@
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))
+
+
 import streamlit as st
 from services.student_manager import StudentManager
 from ui.components import (
